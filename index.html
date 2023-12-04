@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>УралИнструментСнаб | Новинка</title>
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <div class="header__navbar">
+                <div class="header__logo">
+                    <a href="index.html">
+                        <img src="img/logo.png" alt="logo" class="header__logo-img">
+                    </a>
+                </div>
+                <nav class="header__menu">
+                    <ul id="MenuItems" class="menu__list">
+                        <li class="menu__list-item">
+                            <a href="index.html" class="menu-link">Продукция</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a href="products.html" class="menu-link">Компания</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a href="#!" class="menu-link">Информация</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a href="#!" class="menu-link">Контакты</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a href="account.html" class="menu-link">Аккаунт</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="search">
+                <input type="search" name="search" id="search" placeholder="Поиск">
+            </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="banner">
+        <div class="container">
+            <div class="grid">
+                <div class="el-1">
+                    <img src="img/1587369588.jpg" alt="banner" class="banner-img">
+                    <div class="text-banner">
+                        <h1 class="banner__title">Новая серия High-Feed!</h1>
+                        <p class="banner__subtitle">Представляем фрезы со сменными<br/>режущими пластинами</p>
+                        <a href="#new" class="btn">Узнать больше  →</a>
+                    </div>
+                </div>
+                <div class="el-2">
+                    <div class="mini-banner">
+                        <a href="#">
+                        <img src="img/0ad82f832d5e1b738811196dd52ee5fb.jpg" alt="mini-banner" class="mini-banner-img">
+                        <div class="mini-banner-text">
+                            <h1 class="mini-banner__title1">Все товары</h1>
+                        </div>
+                    </a>
+                    </div>
+                    <div class="mini-banner margin">
+                        <a href="#">
+                        <img src="img/picture-turning-wl17-23-1.jpg" alt="mini-banner" class="mini-banner-img">
+                        <div class="mini-banner-text">
+                            <h1 class="mini-banner__title2">О компании</h1>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- о компании -->
+
+    <section class="company">
+        <div class="container">
+            <h1 class="title">Основные направления</h1>
+	<div class="company-container">
+		<div class="item item-1">
+			<span>Подбор и поставка стандартной станочной оснастки в соответствии с моделью оборудования заказчика по оптимальным ценам в минимальные сроки</span>
+		</div>
+		<div class="item item-2">
+			<span>Автоматизация производственного процесса посредством внедрения новейших разработок мировых производителей зажимных решений (например, обработка деталей типа "крестовина" за 1 установ, вместо 2-х или 3-х);</span>
+		</div>
+		<div class="item item-3">
+			<span>Разработка и поставка специальной зажимной оснастки для нестандартных заготовок с помощью тесного взаимодействия с европейскими и азиатскими производителями данной продукции.</span>
+		</div>
+		<div class="item item-4">
+			<span>Подбор и поставка металлорежущего инструмена</span>
+		</div>
+        <div class="item item-5">
+			<span>Подбор и поставка измерительного инструмента</span>
+		</div>
+	</div>
+        </div>
+    </section>
+
+    <section class="categories">
+        <div class="container">
+            <h1 class="categories__title">Наша продукция</h1>
+            <div class="particular">
+            <h2 class="particularity__title">---   Оснастки   ---</h2>
+            </div>
+            <div class="category-filter">
+                <input type="radio" name="categories" id="tokar" class="filter-radio" value="tokar">
+                <input type="radio" name="categories" id="frez" class="filter-radio" value="frez">
+                <input type="radio" name="categories" id="instr" class="filter-radio" value="instr">
+                <input type="radio" name="categories" id="avto" class="filter-radio" value="avto">
+                <ul class="filter-controls">
+                    <li><label class="controls-label" for="tokar">Токарная</label></li>
+                    <li><label class="controls-label" for="frez">Фрезерная</label></li>
+                    <li><label class="controls-label" for="instr">Инструментальная</label></li>
+                    <li><label class="controls-label" for="avto">Автоматизация</label></li>
+                </ul>
+            
+                <div class="flex ff-items">
+                    <div class="card item-tok" data-category="tokar">
+                        <img class="card-img" src="img/patron.jpg" alt="токарная оснастка"/>
+                        <h3 class="card-resort">Патроны токарные ручные</h3>
+                    </div>
+                    <div class="card item-tok" data-category="tokar">
+                        <img class="card-img" src="img/patron2.jpg" alt="токарная оснастка"/>
+                        <h3 class="card-resort">Патроны механизированные</h3>
+                    </div>
+                    <div class="card item-tok" data-category="tokar">
+                        <img class="card-img" src="img/Patron3.jpg" alt="токарная оснастка"/>
+                        <h3 class="card-resort">Токарные цанговые патроны</h3>
+                    </div>
+
+                    <div class="card item-frez" data-category="frez">
+                        <img class="card-img" src="img/tiski.jpg" alt="фрезерная оснастка"/>
+                        <h3 class="card-resort">Тиски станочные</h3>
+                    </div>
+                    <div class="card item-frez" data-category="frez">
+                        <img class="card-img" src="img/stol.png" alt="фрезерная оснастка"/>
+                        <h3 class="card-resort">Поворотные станки</h3>
+                    </div>
+                    <div class="card item-frez" data-category="frez">
+                        <img class="card-img" src="img/prisp.jpg" alt="фрезерная оснастка"/>
+                        <h3 class="card-resort">Фрезерные приспособления</h3>
+                    </div>
+
+                    <div class="card item-frez" data-category="instr">
+                        <img class="card-img" src="img/privod.jpg" alt="инструментальная оснастка"/>
+                        <h3 class="card-resort">Приводные блоки</h3>
+                    </div>
+                    <div class="card item-frez" data-category="instr">
+                        <img class="card-img" src="img/rast.jpg" alt="инструментальная оснастка"/>
+                        <h3 class="card-resort">Расточные системы</h3>
+                    </div>
+                    <div class="card item-frez" data-category="instr">
+                        <img class="card-img" src="img/izmer.jpg" alt="инструментальная оснастка"/>
+                        <h3 class="card-resort">Измерительный инструмент</h3>
+                    </div>
+
+                    <div class="card item-frez" data-category="avto">
+                        <img class="card-img" src="img/modul.jpeg" alt="автоматизация"/>
+                        <h3 class="card-resort">Модули перемещения</h3>
+                    </div>
+                    <div class="card item-frez" data-category="avto">
+                        <img class="card-img" src="img/kollab.jpg" alt="автоматизация"/>
+                        <h3 class="card-resort">Коллаборативные роботы</h3>
+                    </div>
+        </div>
+            </div>
+    </section>
+
+    <section class="novinka" id="new">
+        <div class="border-left"></div>
+        <div class="container">
+            <div class="grid">
+               <div class="new__img">
+                    <img src="img/100148893.jpg" alt="насадная фреза" class="new-img">
+                </div>
+                <div class="new__text">
+                    <h1 class="new-title">Насадная фреза 7792VXD12 <br>С крупным, средним и мелким шагом зубьев<br>Метрическая система</h1>
+                    <p class="section-text">Фрезы для работы с большими подачами</p>
+                    <a href="#" class="btn">Перейти к заказу</a>
+                </div>
+            </div>
+            </div>
+            <div class="border-right"></div>
+    </section>
+
+
+    <section class="form__zakaz">
+        <div class="container">
+        <div class="container-form">
+            <h1 class="title">Оставьте заявку</h1>
+            <form action="#" class="form">
+                <input type="text" name="name" placeholder="Ваше имя*" required>
+                <input type="text" name="fam" placeholder="Ваша фамилия*" required>
+                <input type="text" name="org" placeholder="Название организации*" required>
+                <input type="tel" name="tel" placeholder="Контактный номер*" required>
+                <input type="email" name="email" placeholder="Ваш email">
+            </form>
+        </div>
+        </div> 
+    </section>
+
+    <footer class="footer">
+<div class="row">
+<div class="col-3">    
+    <h2 class="footer__title">Главное меню</h2>
+    <ul class="footer__bar">
+        <li class="footer__bar-item"><a href="#">Компания</a></li>
+        <li class="footer__bar-item"><a href="#">Информация</a></li>
+        <li class="footer__bar-item"><a href="#">Контакты</a></li>
+        <li class="footer__bar-item"><a href="#">Аккаунт</a></li>
+    </ul>
+</div>
+
+<div class="col-3">
+    <h2 class="footer__title">Наша продукиця</h2>
+    <ul class="footer__bar">
+        <li class="footer__bar-item"><a href="#">Токарная оснастка</a></li>
+        <li class="footer__bar-item"><a href="#">Фрезерная оснастка</a></li>
+        <li class="footer__bar-item"><a href="#">Инструментальная оснастка</a></li>
+        <li class="footer__bar-item"><a href="#">Измерительный ин</a></li>
+    </ul>
+</div>
+
+<div class="col-3">
+    <h2 class="footer__title">Контакты</h2>
+    <ul class="footer__bar">
+        <li class="footer__bar-item"><p>6200143 г.Екатеринбург</p></li>
+        <li class="footer__bar-item"><p>ул. Красных Борцов, 1</p></li>
+        <li class="footer__bar-item"><a href="#">8-(966)-707-65-58</a></li>
+        <li class="footer__bar-item"><a href="#">Uis@mail.ru</a></li>
+    </ul>
+</div>
+</div>
+    </footer>
