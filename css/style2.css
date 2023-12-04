@@ -10,15 +10,13 @@ body{
     font-family: 'Brygada', sans-serif;  
     font-weight: 400;
     color: #555;
+    background: #ffdead;
     font-size: 16px;
   }
 ul, li{
       list-style: none;
   }
 
-.header{
-    background: #f3c7c7;
-  }
 
 .container {
     max-width: 70%;
@@ -271,6 +269,12 @@ ul, li{
     display: inline-block;
 }
 
+.controls-label:hover{
+    color: #ff981e;
+    border-bottom: solid 1px #ff981e;
+    transition: all 2s;
+}
+
 .category-filter input{
     display: none;
 }
@@ -283,13 +287,13 @@ ul, li{
         padding: 0 20px 30px 20px;
 }
 
-  .category-filter input.ff-all:checked~.card{
+.category-filter input.ff-all:checked~.card{
     min-width: 350px;
     transform: scale(1, 1);
     transition: transform 0.3s linear;
   }
   
-  .flex {
+.flex {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -298,7 +302,7 @@ ul, li{
   
   .categories, .ff-items {
     position: relative;
-    background-color: #ffffff;
+    background: #ffdead;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -323,6 +327,7 @@ ul, li{
     /* padding: 20px; */
     border: solid 1px #555;
     border-radius: 5px;
+    background: #fff;
   }
 
   .card-img {
@@ -356,6 +361,7 @@ ul, li{
 
 .novinka{
     min-width: 100%;
+    background: #fff;
 }
 
  .border-right{
@@ -431,7 +437,7 @@ ul, li{
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 20px;
 }
 
 .form{
@@ -459,7 +465,7 @@ border: solid 1px #555;
 }
 
 .container-form h1{
-    padding-top: 30px;
+    padding-top: 10px;
 }
 
 /* футер */
